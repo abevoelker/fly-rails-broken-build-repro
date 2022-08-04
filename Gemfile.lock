@@ -90,6 +90,8 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.16.2)
+    net-http (0.2.2)
+      uri
     net-imap (0.2.3)
       digest
       net-protocol
@@ -155,6 +157,7 @@ GEM
     timeout (0.3.0)
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
+    uri (0.11.0)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -165,6 +168,7 @@ PLATFORMS
 
 DEPENDENCIES
   debug
+  net-http
   puma (~> 5.0)
   rails (~> 7.0.3, >= 7.0.3.1)
   sprockets-rails

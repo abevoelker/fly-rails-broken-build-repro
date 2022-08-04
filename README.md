@@ -1,24 +1,8 @@
-# README
+# Fly.io build issue
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Reproduce with:
 
-Things you may want to cover:
+```
+$ DOCKER_BUILDKIT=1 docker build --build-arg BUNDLER_VERSION="2.3.19" --build-arg NODE_VERSION="14" --build-arg RUBY_VERSION="2.7.6" --progress=plain -t app .
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
